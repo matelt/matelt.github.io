@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Busy Day Schedule</title>
+    <style>
+        /* Styling the table */
+        table {
+            width: 70%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        /* Styling the table headers */
+        th {
+            padding: 8px;
+            background-color: lightgray;
+        }
+
+        /* Styling all table cells */
+        td {
+            padding: 8px;
+        }
+
+        /* Styling the first row */
+        tr:first-child {
+            background-color: lightgray;
+        }
+
+        /* Styling a specific column using class */
+        .highlight {
+            background-color: lightyellow;
+        }
+
+        /* Styling a specific row using id */
+        #special-row {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">My Busy Day Schedule</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Task</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="special-row">
+                <td>7:00 AM</td>
+                <td class="highlight">Wake Up</td>
+            </tr>
+            <tr>
+                <td>8:00 AM</td>
+                <td>Breakfast</td>
+            </tr>
+            <tr>
+                <td>9:00 AM</td>
+                <td>Morning Exercise</td>
+            </tr>
+            <tr>
+                <td>10:00 AM</td>
+                <td>Check Emails</td>
+            </tr>
+            <tr>
+                <td>11:00 AM</td>
+                <td>Project Meeting</td>
+            </tr>
+            <tr>
+                <td>12:30 PM</td>
+                <td class="highlight">Lunch</td>
+            </tr>
+            <tr>
+                <td>2:00 PM</td>
+                <td>Work on Assignment</td>
+            </tr>
+            <tr>
+                <td>4:00 PM</td>
+                <td>Study for Exams</td>
+            </tr>
+            <tr>
+                <td>6:00 PM</td>
+                <td>Read My Book</td>
+            </tr>
+            <tr>
+                <td>8:00 PM</td>
+                <td>Dinner</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
